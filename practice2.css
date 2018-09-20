@@ -1,0 +1,66 @@
+.header{
+  width: 600px;
+  height: 200px;
+}
+.title{
+  width: 600px;
+  height: 100px;
+  background-color: blue;
+}
+.manu{
+  width: 600px;
+  height: 100px;
+}
+ul{
+  margin: 0px;
+  padding: 0px;
+}
+.manu li{
+  font-size: 18px;
+  width: 100px;
+  height: 100px;
+  float: left;
+  list-style: none;
+}
+.manu li:nth-of-type(even){
+  background-color: pink;
+}
+.manu li:nth-of-type(odd){
+  background-color: gray;
+
+}
+#body{
+  width: 600px;
+  height: 600px;
+}
+.main{
+  background-color: skyblue;
+  width: 600px;
+  height: 600px;
+  float: left;
+}
+.sideber{
+  width: 200px;
+  height: 600px;
+  float: right;
+}
+.sideber div{
+  width: 200px;
+  height: 200px;
+}
+#side-1{
+  background-color: yellow;
+}
+#side-2{
+  background-color: orange;
+}
+#side-3{
+  background-color: red;
+}
+
+.footer{
+  background-color: lime;
+  width: 600px;
+  height: 100px;
+  clear: both;
+}
